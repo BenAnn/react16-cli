@@ -6,7 +6,6 @@ import RouterMap from './router/index';
 
 import 'antd/dist/antd.css';
 import '@style/common.css';
-import '@font/iconfont.css';
 
 class App extends Component {
 
@@ -35,10 +34,10 @@ const mapStateToProps = (state) => {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-    initUser: bindActionCreators(initUser, dispatch),
-    updateId: (id) => {
-        dispatch(update_id(id))
-    },
+    // initUser: bindActionCreators(initUser, dispatch),
+    // updateId: (id) => {
+    //     dispatch(update_id(id))
+    // },
 })
 
 const AppContainer = connect(mapStateToProps, mapDispatchToProps)(App)

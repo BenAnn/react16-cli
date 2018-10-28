@@ -9,12 +9,12 @@ const RouteMap = [
     //     exact: 'true'
     // },
 
-    // {
-    //     path: '/index',
-    //     component: Component.Async(() =>
-    //         import ('@page/Index/index')),
-    //     exact: 'true'
-    // },
+    {
+        path: '/index',
+        component: Component.Async(() =>
+            import ('@page/Index/index')),
+        exact: 'true'
+    },
 
 ]
 
